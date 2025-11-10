@@ -45,9 +45,9 @@
 
  <div class={["image-container", (imageAlign? "imageRightAlign": "imageLeftAlign")]}>
     {#if cwd==="knitting"}
-        <img src="../src/lib/assets/ravelry/{data.post.src}" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
+        <img src="src/lib/assets/ravelry/{data.post.src}" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
     {:else}
-        <img src="../src/lib/assets/{data.post.src}" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
+        <img src="src/lib/assets/{data.post.src}" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
     {/if}
  </div>
 
