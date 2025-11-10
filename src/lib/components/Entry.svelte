@@ -44,10 +44,10 @@
  <h1>{data.post.title}</h1>
 
  <div class={["image-container", (imageAlign? "imageRightAlign": "imageLeftAlign")]}>
-    {#if cwd==="knitting"}
-        <img src="src/lib/assets/ravelry/{data.post.src}" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
+    {#if cwd==="knitting"} <!-- /{data.post.src} -->
+        <img src="src/lib/assets/ravelry/1898_hat.jpg" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
     {:else}
-        <img src="src/lib/assets/{data.post.src}" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
+        <img src="src/lib/assets/1898.jpg" style={`border: solid ${r(3, 10)}px ${complementaryColor};`} alt="Placeholder"/>
     {/if}
  </div>
 
