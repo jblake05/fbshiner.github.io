@@ -60,16 +60,12 @@
     /* MOBILE CSS */
     @media only screen and (max-width: 600px) {
         .image-container {
-            width: 33%;
+            width: 20%;
             display: inline-block;
         }
 
         .imageLeftAlign {
             float: left;
-        }
-
-        .imageRightAlign { /* fix styling here */
-            float: right;
         }
 
         .text-container {
@@ -78,7 +74,9 @@
         }
 
         .textLeftAlign {
+            width: 40%;
             float: left;
+            padding-left: 5%;
         }
 
         .textRightAlign {
