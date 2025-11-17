@@ -50,50 +50,53 @@
             margin-left: auto;
             padding-right: 15%;
         }
-
-        .page-container {
-            display: flex;
-            align-items: center;
-        }
     }
 
     /* MOBILE CSS */
     @media only screen and (max-width: 600px) {
         .image-container {
-            width: 20%;
-            display: inline-block;
+            width: 33%;
         }
 
         .imageLeftAlign {
-            float: left;
+            order: 0;
+            margin-right: auto;
+            /* padding-left: 15%;     */
         }
 
         .text-container {
-            width: 10%;
-            display: inline-block;
-        }
-
-        .textLeftAlign {
             width: 33%;
-            float: left;
-            padding-left: 5%;
         }
 
         .textRightAlign {
-            float: right;
+            order: 1;
+            margin-left: auto;
+            padding-right: 15%;
         }
         
-        .page-container {
-            display: block;
+        
+        .textLeftAlign {
+            order: 0;
+            width: 100%;
+            margin-right: auto;
+            padding-left: 15%;
+        }
+
+        .imageRightAlign { /* fix styling here */
+            order: 1;
+            width: 100%;
+            margin-left: auto;
+            padding-right: 15%;
         }
     }
 
     h1 {
         text-align: center;
     }
-
     .page-container {
         width: 100%;
+        display: flex;
+        align-items: center;
     }
 
 </style>
