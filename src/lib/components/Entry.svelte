@@ -74,7 +74,7 @@
         }
 
         .textLeftAlign {
-            width: 40%;
+            width: 33%;
             float: left;
             padding-left: 5%;
         }
